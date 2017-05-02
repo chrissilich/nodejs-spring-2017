@@ -1,0 +1,16 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "stuff we did in week 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Silich",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {}
+}

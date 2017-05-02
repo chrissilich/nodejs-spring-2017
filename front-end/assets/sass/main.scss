@@ -1,0 +1,66 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+
+@import "reset";
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: white;
+}
+
+ul.messages {
+	li {
+		margin: 0;
+		padding: 10px 20px;;
+		border: 1px solid #999;
+
+		&.editing {
+			background: #bbb;
+			input {
+				border-color: black;
+			}
+		}
+		
+		input {
+			border-color: transparent;
+			outline: 0;
+		}
+
+		&:hover {
+			button {
+				opacity: 1;
+			}
+		}
+
+		button {
+			transition: 0.3s;
+			opacity: 0;
+			float: right;
+			border: 0;
+			background: rgb(200, 0,0);
+			color: white;
+
+			&.edit {
+				background: rgb(0, 100, 200);
+			}
+		}
+	}
+}
